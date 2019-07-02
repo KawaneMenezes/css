@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+nav {
+    align-items: center; /* alinha os itens dentro da barra */
+    background-color: #fe7a35; 
+    display: flex; /* deixa a nav mais dinâmica e responsiva */
+    height: 60px;
+    justify-content: space-evenly; /* espaço entre os links */
+}
+
+nav a {
+    color: #17386d;
+    font-size: 22pt;
+    font-family: 'VT323', monospace;
+    text-decoration: none; /* tira o sublinhado abaixo do texto de link  */
+}
