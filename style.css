@@ -16,3 +16,9 @@ nav a {
     font-family: 'VT323', monospace;
     text-decoration: none; /* tira o sublinhado abaixo do texto de link  */
 }
+
+header {
+    background-image: url("images/kages.jpg");
+    background-size: cover;
+    height: 400px;
+}
