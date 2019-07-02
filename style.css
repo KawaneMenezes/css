@@ -14,7 +14,7 @@ nav a {
     color: #17386d;
     font-size: 22pt;
     font-family: 'VT323', monospace;
-    text-decoration: none; /* tira o sublinhado abaixo do texto de link  */
+    text-decoration: none; /* tira o sublinhado abaixo do texto de link */
 }
 
 header {
@@ -22,3 +22,35 @@ header {
     background-size: cover;
     height: 400px;
 }
+
+section{
+    background-color: #b0946b;
+    display: flex; /* deixar o texto em duas colunas, trocar block (padrão) por inline*/
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+div{
+    width: 40%;
+}
+
+div ul {
+    list-style-image: url("images/ninja.png");  
+}
+
+div p{
+    text-align: justify;
+}
+
+/*ul li:nth-child(even) { /* nth-child() seleciona a ul específico com números ou (even/pares) (odd/impares) */
+    /* color: white;
+ }*/
+
+/* p, h2 { */
+    /* color: lawngreen; (adiciona mais de um seletor) */
+/* } */
