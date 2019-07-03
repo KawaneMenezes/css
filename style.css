@@ -19,7 +19,7 @@ nav a {
 
 header {
     background-image: url("images/kages.jpg");
-    background-size: cover;
+    background-size: cover; /* faz a imagem ocupar somente o espaço necessário, sem precisar repeti-la*/
     height: 400px;
 }
 
@@ -35,7 +35,7 @@ h2{
     font-size: 30px;
 }
 
-div{
+section div{
     width: 40%;
 }
 
@@ -54,3 +54,28 @@ div p{
 /* p, h2 { */
     /* color: lawngreen; (adiciona mais de um seletor) */
 /* } */
+
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;   
+}
+
+input:focus{
+    background-color: #fe7a35; /*adicionar cor quando o input estiver selecionado*/
+}
+
+footer div{
+    align-items: center;
+    background-color: #fe7a35; 
+    display: flex; 
+    justify-content: center;    
+}
+
+h3{
+    color: white;
+}
+
+footer img{
+    margin: 10px;
+    height: 20px;
+    widows: 20px;
+}
